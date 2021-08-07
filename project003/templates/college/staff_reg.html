@@ -1,0 +1,15 @@
+
+<form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+username : <input type="text" name="username"><br>
+email : <input type="email" name="email"><br>
+password  : <input type="password" name="password"><br>
+name : <input type="text" name="name"><br>
+mobile : <input type="number" name="mobile"><br>
+exp : <input type="text" name="exp"><br>
+qualification : <input type="text" name="qualification"><br>
+profile_pic : <input type="file" name="profile_pic"><br>
+department : <input type="text" name="department"><br>
+<input type="submit" value="Register">
+</form>
+<a href="/college/home/">Back</a>

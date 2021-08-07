@@ -1,0 +1,8 @@
+
+{% if staff %}
+{% for stf in staff %}
+   <ol> {{stf.username}}   {{stf.email}}</ol>
+{% endfor %}
+{% else %}
+{% endif %}
+<a href="/college/staff_logput/">Logout</a>
