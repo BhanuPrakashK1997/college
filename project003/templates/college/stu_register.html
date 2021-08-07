@@ -1,0 +1,13 @@
+
+<form action="/college/stu_register/" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+username    : <input type="text" name="username"><br>
+email       : <input type="email" name="email"><br>
+password    : <input type="password" name="password"><br>
+mobile      : <input type="number" name="mobile"><br>
+department : <input type="text" name="department"><br>
+father_name : <input type="text" name="father_name"><br>
+profile_pic : <input type="file" name="profile_pic"><br>
+<input type="submit" value="Register">
+</form>
+<a href="/college/home/">Back</a>
